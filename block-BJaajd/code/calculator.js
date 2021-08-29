@@ -1,6 +1,13 @@
-function add() {}
+function add(a,b) {
+  if(typeof a === 'number' && typeof b === 'number'){
+    return a + b;
+  }
+  return 'Not a valid input';
+}
 
-function subtract() {}
+function subtract(a,b) {
+  return a - b;
+}
 
 function sum() {}
 
