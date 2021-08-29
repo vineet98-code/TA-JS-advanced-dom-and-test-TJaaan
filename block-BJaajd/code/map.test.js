@@ -16,9 +16,9 @@ test('test map function', () => {
  
 
 
-//  test('test reduce function', () => {
-//     expect(reduce(1,2,3)).toEqual([3]);
-//  });
+ test('test reduce function', () => {
+    expect(reduce(1,2,3)).toEqual([3]);
+ });
  
  
  
