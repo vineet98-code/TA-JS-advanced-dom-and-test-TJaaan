@@ -9,13 +9,25 @@ function subtract(a,b) {
   return a - b;
 }
 
-function sum() {}
+function sum(a,b) {
+  return a + b;
+}
 
-function multiply() {}
+function multiply(a,b) {
+  return a * b;
+}
 
-function power() {}
+function power(a,b) {
+  return Math.pow(a,b);
+}
 
-function factorial() {}
+function factorial(n) {
+  if(n == 0 || n == 1){
+    return 1;
+  } else { 
+    return n * factorial(n-1);
+  }
+}
 
 module.exports = {
   add,
