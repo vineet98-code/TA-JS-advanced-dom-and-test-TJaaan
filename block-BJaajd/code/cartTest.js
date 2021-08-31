@@ -8,6 +8,6 @@ class Cart {
     }
   }
 
-  module.exports = {
-    Cart
-  };  
+  module.exports = cart;
+  
+  
