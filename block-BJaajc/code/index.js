@@ -14,6 +14,9 @@ function getCircumfrence() {
 function getArea() {
     return `The area is NN`;
 }
+function getArea() {
+    return `The area is NN`;
+}
 
 
 module.exports = {
