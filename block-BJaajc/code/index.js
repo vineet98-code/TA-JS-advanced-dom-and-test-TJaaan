@@ -11,17 +11,13 @@ function getFullName(firstName, lastName){
 //     return `The circumference is NN`;
 // }
 
-// function getArea() {
-//     return `The area is NN`;
-// }
-// function getArea() {
-//     return `The area is NN`;
-// }
+function getArea(radius) {
+    return `The area is  Math.PI * ${radius} * ${radius}`;
+}
+
 
 
 module.exports = {
     getFullName,
-    // isPalindrome,
-    // getCircumfrence,
-    // getArea
+    getArea,
 };
