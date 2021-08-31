@@ -14,9 +14,6 @@ function getCircumference(radius){
   return `The circumference is ${2 * Math.PI * radius}`;
 
 }
-
-
-
 function getArea(radius) {
   return `The area is ${Math.PI * radius * radius}`
 }
